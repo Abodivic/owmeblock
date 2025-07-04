@@ -10,14 +10,17 @@ Blocks Overwatch Middle East servers through Windows firewall rules.
 - Works on Windows 10/11
 
 ## How to use
+Run this tool before running Overwatch otherwise you'll remain on whatever servers you're already connected to
+
 **Option 1: Download compiled version**
-- Check the releases page for pre-built .exe files
+1. Download the release version
+2. Run the tool, click on Block
+3. Start Overwatch and enjoy non-Middle Eastern lobbies
 
 **Option 2: Run from source**
-1. Close Overwatch if it's running
-2. Install Python requirements: `pip install -r requirements.txt`
-3. Run: `python main.py`
-4. Click Block to enable blocking (you can close the program after this and start playing)
-5. Click Unblock when you want to disable blocking
+1. Install Python requirements: `pip install -r requirements.txt`
+2. Run: `python main.py`
+3. Click Block to enable blocking (you can close the program after this and start playing)
+4. Click Unblock when you want to disable blocking
 
 Requires admin privileges to modify firewall rules.
