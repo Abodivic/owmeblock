@@ -1,4 +1,4 @@
-# Overwatch ME Server Blocker
+# Overwatch Middle East Server Blocker
 
 Blocks Overwatch Middle East servers through Windows firewall rules.
 
