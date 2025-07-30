@@ -5,7 +5,7 @@ from datetime import datetime
 class FirewallManager:
     def __init__(self):
         self.RULE_NAME = "Overwatch MiddleEast"
-        self.IP_LIST = ["34.1.48.0/20", "34.152.84.0/23", "34.166.0.0/16", "34.177.48.0/23"]
+        self.IP_LIST = ["34.1.48.0/20", "34.152.84.0/23", "34.166.0.0/16", "34.177.48.0/23", "35.192.0.0/12", "34.32.0.0/11"]
     
     def run_command(self, command: str) -> Tuple[bool, str]:
         """Execute command and return success status and output"""
